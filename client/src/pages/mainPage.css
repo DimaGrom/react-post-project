@@ -1,0 +1,48 @@
+.MainPage {
+	margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+	.MainPage {
+		margin-top: 0;
+	}
+}
+
+.MainPage h2 {
+	color: white;
+	font-size: 24px;
+	margin-top: 50px;
+}
+
+.MainPage .addpost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.MainPage .addpost button {
+    color: white;
+    background: #4b5563;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+.MainPage .addpost button:hover {
+    background: #9ca3af;
+}
+
+.MainPage {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.MainPage .posts {
+	width: 65%;
+}
+
+.MainPage .popularposts {
+	width: 30%;
+}

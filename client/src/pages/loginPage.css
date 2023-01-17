@@ -1,0 +1,82 @@
+.LoginPage {}
+
+
+.LoginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.LoginPage h1 {
+    color: white;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.LoginPage  form {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	border: solid white 1px;
+	border-radius: 5px;
+}
+
+@media (max-width: 450px) {
+	.LoginPage  form {
+		width: 90%;
+	}
+}
+
+.LoginPage  label {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	margin: 10px 20px;
+}
+
+.LoginPage  input {
+	color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: 14px;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
+.LoginPage  a {
+	color: white;
+	font-size: 14px;
+	margin: 0 10px;
+	white-space: nowrap;
+    padding: 1px 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.LoginPage a:hover {
+    background: #0ea5e9;
+}
+
+.LoginPage .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.LoginPage .login button {
+	color: white;
+	font-size: 12px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    background: #38bdf8;
+    border-radius: 2px;
+    transition: 0.4s
+}
+
+.LoginPage .login button:hover {
+	background: #0ea5e9;
+}

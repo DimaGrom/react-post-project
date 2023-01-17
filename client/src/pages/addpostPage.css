@@ -1,0 +1,116 @@
+.AddpostPage {}
+
+.AddpostPage {}
+
+.AddpostPage h1 {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.AddpostPage form {
+	max-width: 500px;
+    min-width: 350px;
+    margin: auto;
+}
+
+.AddpostPage label.file {
+	color: #d1d5db;
+    background: #4b5563;
+	border: dashed 2px white;
+	padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.AddpostPage label.file:hover {
+	background: #374151;
+}
+
+.AddpostPage label.file input.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+.AddpostPage label {
+    color: white;
+}
+
+.AddpostPage input {
+    color: #d1d5db;
+}
+
+.AddpostPage .image {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.AddpostPage .image img {
+	width: 80%;
+}
+
+@media (max-width: 540px) {
+	.AddpostPage .image img {
+		width: 100%;
+	}
+}
+
+.AddpostPage .submit {
+    color: white;
+    background: #6b7280;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transform: 0.4s;
+}
+
+.AddpostPage .submit:hover {
+    color: white;
+    background: #3f3f46;
+}
+
+.AddpostPage .context {
+    display: flex;
+    flex-direction: column;
+}
+
+.AddpostPage .context {}
+
+.AddpostPage .context label {
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.AddpostPage .context input {
+    border: solid white 1px;
+    border-radius: 2px;
+    margin: 10px 0 0;
+    padding: 4px 6px;
+}
+
+.AddpostPage .context input::placeholder {
+    color: #d1d5db;
+    opacity: 0.8;
+}
+
+.AddpostPage .context textarea {
+    font-size: 16px;
+    color: white;
+    border: solid white 1px;
+    border-radius: 2px;
+    margin: 10px 0;
+    padding: 4px 6px;
+    size: none;
+}
+
+.AddpostPage .context textarea::placeholder {
+    font-size: 16px;
+    color: #d1d5db;
+    opacity: 0.8;
+}

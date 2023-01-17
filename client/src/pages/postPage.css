@@ -1,0 +1,13 @@
+.PostPage {}
+
+.PostPage .PostPage__container {
+	display: flex;
+}
+
+.PostPage .PostPage__contant {
+	width: 75%;
+}
+
+.PostPage {}
+
+.PostPage {}

@@ -1,0 +1,61 @@
+.PostItem {
+	margin-bottom: 20px;
+	border-bottom: solid #374151 1px;
+	padding-bottom: 12px;
+}
+
+.PostItem .image {
+	width: 100%
+}
+
+.PostItem .image img{
+	width: 100%
+}
+
+.PostItem {}
+
+.PostItem .name {
+	display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.PostItem .name div {
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.PostItem .name .date {
+    font-size: 8px;
+    opacity: 0.5;
+}
+
+.PostItem .text {
+	opacity: 0.6;
+	font-size: 12px;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.PostItem .rewies {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.PostItem .rewies div {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.ml-20 {margin-left: 20px;}
+
+.mr-20 {margin-right: 20px;}

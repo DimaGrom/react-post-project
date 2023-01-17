@@ -1,0 +1,40 @@
+.Navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.Navbar__item {
+	display: flex;
+}
+
+.Navbar__item a {
+	padding: 0 10px;
+	white-space: nowrap;
+	color: white;
+	opacity: 0.7;
+	transition: 0.4s;
+}
+
+.Navbar__item a:hover {
+	opacity: 1;
+}
+
+.Navbar_login a {
+	color: white;
+}
+
+.Navbar_login a:hover {
+	opacity: 0.8;
+}
+
+.Navbar_login button {
+	font-size: 12px;
+	color: white;
+	transition: 0.4s;
+}
+
+.Navbar_login button:hover {
+	opacity: 0.9;
+}
